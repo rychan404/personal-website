@@ -24,6 +24,7 @@ header div div p {
 
 header div img {
     margin-right: 2.5rem;
+    width: 25%;
 }
 
 nav ul {
@@ -37,15 +38,54 @@ nav ul li {
     padding: 0 1rem;
 }
 
+#about {
+    display: flex;
+    margin-top: 1rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+#about img {
+    width: 25%;
+    margin-left: 1rem;
+}
+
+#assistant img {
+    width: 50%;
+}
+
+#about h2 {
+    margin: 0;
+}
+
+#about p {
+    max-width: 50ch;
+}
+
 #experiences ul li{
     list-style-type: square;
 }
 
 footer {
     display: flex;
+    justify-content: flex-end;
 }
 
 svg {
     width: 5%;
     margin: 0 1rem;
+}
+
+#library, #assistant, #social-media {
+    display: flex;
+}
+
+#library img, #social-media img {
+    margin-right: 1rem;
+}
+
+#social-media img {
+    width: 50%;
 }
