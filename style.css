@@ -1,0 +1,51 @@
+body {
+    margin: 0 10rem;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.25rem;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+}
+
+header div div {
+    display: block;
+}
+
+header div div h1 {
+    margin: 0;
+}
+
+header div div p {
+    margin: 0;
+}
+
+header div img {
+    margin-right: 2.5rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding: 0 1rem;
+}
+
+#experiences ul li{
+    list-style-type: square;
+}
+
+footer {
+    display: flex;
+}
+
+svg {
+    width: 5%;
+    margin: 0 1rem;
+}
