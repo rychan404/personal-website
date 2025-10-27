@@ -3,6 +3,34 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-size: 1.25rem;
+    background: url(city-bkg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: monospace;
+}
+
+main {
+    padding: 1rem;
+    background: white;
+    margin-top: 3rem;
+    border-radius: 1.5rem 1.5rem 0 0;
+}
+
+footer {
+    background: white;
+    border-radius: 0 0 1.5rem 1.5rem;
+}
+
+header h1 {
+    font-size: 5rem;
+    color: #CFFF70;
+    text-shadow: 5px 5px #323E4F;
+}
+
+header p {
+    font-size: 1.5rem;
+    color: #CFFF70;
 }
 
 header div {
@@ -25,6 +53,7 @@ header div div p {
 header div img {
     margin-right: 2.5rem;
     width: 25%;
+    border-radius: 0.5rem;
 }
 
 nav ul {
@@ -36,6 +65,16 @@ nav ul {
 nav ul li {
     list-style-type: none;
     padding: 0 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FFB5B5;
+    text-shadow: 1px 1px #FF6B97;
+} 
+
+nav ul li a:hover {
+    color: #ffe0e0;
 }
 
 #about {
@@ -62,6 +101,7 @@ nav ul li {
 
 #about p {
     max-width: 50ch;
+    margin: 1rem 0;
 }
 
 #experiences ul li{
@@ -76,6 +116,15 @@ footer {
 svg {
     width: 5%;
     margin: 0 1rem;
+    color: #9848bd;
+}
+
+svg a {
+    text-decoration: none;
+}
+
+svg a:hover {
+    color:#ad81c1;
 }
 
 #library, #assistant, #social-media {
